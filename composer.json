@@ -1,0 +1,16 @@
+{
+    "name": "yonatan/15-up-task",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modelo\\": "models/",
+            "Controlador\\": "controllers/",
+            "MVC\\": "./",
+            "Clases\\": "classes"
+        }
+    }
+}

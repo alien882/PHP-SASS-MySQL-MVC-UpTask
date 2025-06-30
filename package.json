@@ -1,0 +1,34 @@
+{
+  "name": "15---uptask",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "type": "module",
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Yonatan Cervantes",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^6.1.2",
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.72.0",
+    "typescript": "^5.4.3"
+  }
+}
